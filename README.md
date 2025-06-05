@@ -19,10 +19,10 @@ This is a simple **Spring Boot + Apache Kafka Streams** application that simulat
 
 ### 1. Start Kafka (local)
 
-# Start Zookeeper
+#### Start Zookeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
-# Start Kafka Broker
+#### Start Kafka Broker
 bin/kafka-server-start.sh config/server.properties
 
 ### 2. Create Topics
